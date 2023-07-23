@@ -16,7 +16,7 @@ async function start() {
     await sequelize.authenticate();
     console.log('Connection has been established successfully.');
     
-    getPelanggan(1);
+    queryDatabase();
   } catch (error) {
     console.error('Unable to connect to the database:', error);
   }
@@ -115,6 +115,8 @@ async function queryDatabase() {
     console.timeEnd('Time taken'); // End the timer
 
     console.log('Data retrieved successfully.');
+
+    console.log(results)
 
     const memoryUsage = process.memoryUsage();
     console.log('Memory usage:', memoryUsage);
