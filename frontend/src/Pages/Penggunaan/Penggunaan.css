@@ -1,0 +1,24 @@
+.penggunaan__container {
+    display: flex;
+    
+}
+
+.penggunaan__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.penggunaan__content--info {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+}
+  
+.penggunaan__content--graph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

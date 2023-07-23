@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login--form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    gap: 1rem;
+}
+
+.login--inputgroup--text {
+    background-color: #3F3F3F !important;
+}
+
+.login--form__line {
+    width: 100%;
+    border-bottom: 1px solid #3F3F3F;
+}
+
+.login--form__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+
+.login--button {
+    width: 100%;
+}
+.login--form__link {
+    width: 100%;
+}
+.login__link {
+    text-decoration: none;
+}
